@@ -14,4 +14,6 @@
 -(void) setNumberator: (int) n;
 -(void) setDenominator: (int) d;
 
+-(int) numberator;
+-(int) denominator;
 @end

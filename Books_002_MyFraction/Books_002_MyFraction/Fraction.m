@@ -16,7 +16,7 @@
 
 -(void) print
 {
-    NSLog(@"%i/%i", numberator, denominator);
+    NSLog(@"Inside the instance is %i/%i", numberator, denominator);
 }
 -(void) setNumberator: (int) n
 {
@@ -26,4 +26,13 @@
 {
     denominator = d;
 }
+-(int) numberator
+{
+    return numberator;
+}
+-(int) denominator
+{
+    return denominator;
+}
+
 @end

@@ -20,6 +20,9 @@ int main(int argc, const char * argv[]) {
         [myFraction setDenominator:3];
         // show defined fraction
         [myFraction print];
+        // another way that showing defined fraction
+        NSLog(@"Outside the instance is %i/%i.",
+              [myFraction numberator], [myFraction denominator]);
     }
     return 0;
 }
