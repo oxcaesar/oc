@@ -10,4 +10,9 @@
 
 @interface PlayingCard : Card
 
++ (NSArray *) validSuits;
++ (NSArray *) rankStrings;
+
+@property (strong, nonatomic) NSString *suit;
+@property (nonatomic) NSUInteger rank;
 @end

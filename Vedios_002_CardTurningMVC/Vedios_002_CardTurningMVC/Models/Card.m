@@ -10,4 +10,14 @@
 
 @implementation Card
 
+- (BOOL) match: (NSArray *) otherCards
+{
+    BOOL result = NO;
+    for (Card *card in otherCards) {
+        if ([card.contents isEqualToString:self.contents]) {
+            result = YES;
+        }
+    }
+    return result;
+}
 @end

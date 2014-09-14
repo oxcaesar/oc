@@ -10,4 +10,9 @@
 
 @interface Card : NSObject
 
+@property (strong, nonatomic) NSString *contents;
+@property (nonatomic, getter=isChosn) BOOL chosen;
+@property (nonatomic, getter=isMatched) BOOL matched;
+
+- (BOOL) match: (NSArray *) otherCards;
 @end
