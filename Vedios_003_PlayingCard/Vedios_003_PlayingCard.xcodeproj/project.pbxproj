@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55550EAB19C50D1D00ECB24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55550EAA19C50D1D00ECB24C /* main.m */; };
+		55550EB419C50D4400ECB24C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 55550EB319C50D4400ECB24C /* Card.m */; };
+		55550EB719C50D9000ECB24C /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 55550EB619C50D9000ECB24C /* PlayingCard.m */; };
+		55550EBA19C5A54600ECB24C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55550EB919C5A54600ECB24C /* Deck.m */; };
+		55550EBD19C5AB1100ECB24C /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55550EBC19C5AB1100ECB24C /* PlayingCardDeck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55550EA519C50D1D00ECB24C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55550EA719C50D1D00ECB24C /* Vedios_003_PlayingCard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vedios_003_PlayingCard; sourceTree = BUILT_PRODUCTS_DIR; };
+		55550EAA19C50D1D00ECB24C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55550EB219C50D4400ECB24C /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Models/Card.h; sourceTree = "<group>"; };
+		55550EB319C50D4400ECB24C /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Models/Card.m; sourceTree = "<group>"; };
+		55550EB519C50D9000ECB24C /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Models/PlayingCard.h; sourceTree = "<group>"; };
+		55550EB619C50D9000ECB24C /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Models/PlayingCard.m; sourceTree = "<group>"; };
+		55550EB819C5A54600ECB24C /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Models/Deck.h; sourceTree = "<group>"; };
+		55550EB919C5A54600ECB24C /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Models/Deck.m; sourceTree = "<group>"; };
+		55550EBB19C5AB1100ECB24C /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Models/PlayingCardDeck.h; sourceTree = "<group>"; };
+		55550EBC19C5AB1100ECB24C /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Models/PlayingCardDeck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55550EA419C50D1D00ECB24C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55550E9E19C50D1D00ECB24C = {
+			isa = PBXGroup;
+			children = (
+				55550EA919C50D1D00ECB24C /* Vedios_003_PlayingCard */,
+				55550EA819C50D1D00ECB24C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55550EA819C50D1D00ECB24C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55550EA719C50D1D00ECB24C /* Vedios_003_PlayingCard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55550EA919C50D1D00ECB24C /* Vedios_003_PlayingCard */ = {
+			isa = PBXGroup;
+			children = (
+				55550EB119C50D2D00ECB24C /* Models */,
+				55550EAA19C50D1D00ECB24C /* main.m */,
+			);
+			path = Vedios_003_PlayingCard;
+			sourceTree = "<group>";
+		};
+		55550EB119C50D2D00ECB24C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55550EB819C5A54600ECB24C /* Deck.h */,
+				55550EB919C5A54600ECB24C /* Deck.m */,
+				55550EB219C50D4400ECB24C /* Card.h */,
+				55550EB319C50D4400ECB24C /* Card.m */,
+				55550EB519C50D9000ECB24C /* PlayingCard.h */,
+				55550EB619C50D9000ECB24C /* PlayingCard.m */,
+				55550EBB19C5AB1100ECB24C /* PlayingCardDeck.h */,
+				55550EBC19C5AB1100ECB24C /* PlayingCardDeck.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55550EA619C50D1D00ECB24C /* Vedios_003_PlayingCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55550EAE19C50D1D00ECB24C /* Build configuration list for PBXNativeTarget "Vedios_003_PlayingCard" */;
+			buildPhases = (
+				55550EA319C50D1D00ECB24C /* Sources */,
+				55550EA419C50D1D00ECB24C /* Frameworks */,
+				55550EA519C50D1D00ECB24C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vedios_003_PlayingCard;
+			productName = Vedios_003_PlayingCard;
+			productReference = 55550EA719C50D1D00ECB24C /* Vedios_003_PlayingCard */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55550E9F19C50D1D00ECB24C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = oxcaesar;
+				TargetAttributes = {
+					55550EA619C50D1D00ECB24C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 55550EA219C50D1D00ECB24C /* Build configuration list for PBXProject "Vedios_003_PlayingCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55550E9E19C50D1D00ECB24C;
+			productRefGroup = 55550EA819C50D1D00ECB24C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55550EA619C50D1D00ECB24C /* Vedios_003_PlayingCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55550EA319C50D1D00ECB24C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55550EBD19C5AB1100ECB24C /* PlayingCardDeck.m in Sources */,
+				55550EBA19C5A54600ECB24C /* Deck.m in Sources */,
+				55550EB719C50D9000ECB24C /* PlayingCard.m in Sources */,
+				55550EAB19C50D1D00ECB24C /* main.m in Sources */,
+				55550EB419C50D4400ECB24C /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55550EAC19C50D1D00ECB24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55550EAD19C50D1D00ECB24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55550EAF19C50D1D00ECB24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55550EB019C50D1D00ECB24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55550EA219C50D1D00ECB24C /* Build configuration list for PBXProject "Vedios_003_PlayingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55550EAC19C50D1D00ECB24C /* Debug */,
+				55550EAD19C50D1D00ECB24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55550EAE19C50D1D00ECB24C /* Build configuration list for PBXNativeTarget "Vedios_003_PlayingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55550EAF19C50D1D00ECB24C /* Debug */,
+				55550EB019C50D1D00ECB24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55550E9F19C50D1D00ECB24C /* Project object */;
+}
