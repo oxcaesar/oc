@@ -50,14 +50,14 @@
         [sender setTitle:cardContent forState:UIControlStateNormal];
         
         // Log to the console
-        NSLog(@"Here: %lu left.", [[[self playingCardDeck] cards] count]);
+//        NSLog(@"Here: %lu left.", [[[self playingCardDeck] cards] count]);
         NSString *statusShow = [NSString stringWithFormat:@"剩余: %lu张",
                                 [[[self playingCardDeck] cards] count]];
         [[self statusLabel] setText:statusShow];
         
         // Refresh the rank String of the suit
         NSString *hongt = [[self playingCardDeck] rankStringBySuit:@"♥️"];
-        NSLog(@"刷新后的红桃为：%@", hongt);
+//        NSLog(@"刷新后的红桃为：%@", hongt);
         NSString *heit = [[self playingCardDeck] rankStringBySuit:@"♠️"];
         NSString *fangp = [[self playingCardDeck] rankStringBySuit:@"♦️"];
         NSString *meih = [[self playingCardDeck] rankStringBySuit:@"♣️"];
@@ -67,7 +67,7 @@
         [[self heiTao] setText:heit];
         [[self meiHua] setText:meih];
     } else {
-        NSLog(@"Here: %lu left.", [[[self playingCardDeck] cards] count]);
+//        NSLog(@"Here: %lu left.", [[[self playingCardDeck] cards] count]);
         NSString *statusShow = @"卧槽，别点了，没牌了！";
         [[self statusLabel] setText:statusShow];
     }
