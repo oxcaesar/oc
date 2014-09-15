@@ -19,7 +19,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfV-oq-R6H">
                                 <rect key="frame" x="16" y="20" width="273" height="346"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
-                                <state key="normal" title="A♠️" backgroundImage="Image">
+                                <state key="normal" title="Click" backgroundImage="Image">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
